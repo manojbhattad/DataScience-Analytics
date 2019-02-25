@@ -13,7 +13,7 @@ spark = SparkSession.builder.appName('IPL_Regression_CsvIndexed').getOrCreate()
 
 # In[3]:
 
-df = spark.read.csv('file:///usr/local/Project_IPL/IPLmatches_mod.csv', inferSchema=True, header=True)
+df = spark.read.csv('file:///.../.../IPLmatches_mod.csv', inferSchema=True, header=True)
 
 # In[4]:
 
